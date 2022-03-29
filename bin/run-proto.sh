@@ -12,6 +12,8 @@ FILES=`find protobuf/osmosis -type f -name "*.proto"`
 mkdir -p ${OUT_DIR}
 
 
+# --ts_proto_opt="esModuleInterop=true,forceLong=long,useOptionals=true,outputTypeRegistry=true,outputSchema=true" \
+
 for x in ${FILES}
 do
 protoc \
