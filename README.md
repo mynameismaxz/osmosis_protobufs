@@ -72,14 +72,20 @@ To get the build to work, you have to properly point to the protobuf files, incl
 
 To make this self-contained (for now), I've gone ahead and loaded all the protobufs locally into the `./protobuf` folder. 
 
+### protobufs from other repos
+
+https://github.com/cosmos/cosmos-proto
+https://github.com/cosmos/cosmos-sdk/tree/master/proto
+https://github.com/googleapis/googleapis/tree/master/google
+
+
+We got the gogo protobuf here since the [one referenced](https://github.com/gogo/protobuf/issues/737) seems to not exist in google's repo
+
+https://github.com/regen-network/protobuf
+
 ### manually installing protobufs
 
 ```
 go get -u github.com/gogo/protobuf
 ```
 
-### protobufs from other repos
-
-We got the gogo protobuf here since the [one referenced](https://github.com/gogo/protobuf/issues/737) seems to not exist in google's repo
-
-https://github.com/regen-network/protobuf
