@@ -80,8 +80,6 @@ go get -u github.com/gogo/protobuf
 
 ### protobufs from other repos
 
-We quite the gogo protobuf here since the one referenced seems to not exist in google's repo
+We got the gogo protobuf here since the [one referenced](https://github.com/gogo/protobuf/issues/737) seems to not exist in google's repo
 
-```
-git@github.com:regen-network/protobuf.git
-```
+https://github.com/regen-network/protobuf
